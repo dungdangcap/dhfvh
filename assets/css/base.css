@@ -1,4 +1,4 @@
-:root {
+	:root {
   --primary-color: rgb(238, 75, 43);
   --border-color: #dbdbdd;
   --white-color: white;
@@ -88,6 +88,14 @@ html {
   animation: fadeIn linear 0.1s;
 }
 
+.hide {
+  display: none;
+}
+
+.login {
+  display: none;
+}
+
 .modal__overlay {
   position: absolute;
   width: 100%;
@@ -99,6 +107,7 @@ html {
   --growth-from: 0.6;
   --growth-to: 1;
   margin: auto;
+  overflow: hidden;
   z-index: 1;
   animation: growth linear 0.2s;
 }
